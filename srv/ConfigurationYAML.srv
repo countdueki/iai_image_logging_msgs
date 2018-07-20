@@ -1,0 +1,5 @@
+#request
+string yaml_path
+---
+#response
+bool success
