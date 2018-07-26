@@ -13,6 +13,7 @@ add_service_files(
         DIRECTORY
         srv
         FILES
+        Log.srv
         Configuration.srv
         ConfigurationYAML.srv
 )
