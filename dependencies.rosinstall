@@ -6,4 +6,4 @@
 
 - git:
     local-name: dynamic_reconfigure
-    uri:https://github.com/ros/dynamic_reconfigure.git
+    uri: https://github.com/ros/dynamic_reconfigure.git
