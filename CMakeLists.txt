@@ -3,7 +3,11 @@ project(iai_image_logging_msgs)
 
 add_compile_options(-std=c++11)
 
-find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure message_generation std_msgs sensor_msgs)
+find_package(catkin REQUIRED
+        dynamic_reconfigure
+        message_generation
+        std_msgs
+        sensor_msgs)
 
 generate_dynamic_reconfigure_options(
         cfg/Default.cfg
