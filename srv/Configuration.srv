@@ -4,7 +4,7 @@ string format
 uint8 jpeg_quality
 uint8 png_level
 string db_host
-string connection
+string collection
 ---
 #response
 bool success

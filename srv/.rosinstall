@@ -1,7 +1,0 @@
-- git:
-    local-name: dynamic_reconfigure
-    uri: https://github.com/ros/dynamic_reconfigure.git
-
-- git:
-    local-name: message_generation
-    uri: https://github.com/ros/message_generation.git

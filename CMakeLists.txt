@@ -10,7 +10,16 @@ find_package(catkin REQUIRED
         sensor_msgs)
 
 generate_dynamic_reconfigure_options(
-        cfg/Default.cfg
+        cfg/Main.cfg
+        cfg/Compressed.cfg
+        cfg/Theora.cfg
+)
+
+add_message_files(
+        DIRECTORY
+        msg
+        FILES
+        Setup.msg
 )
 
 add_service_files(
@@ -18,6 +27,7 @@ add_service_files(
         srv
         FILES
         Log.srv
+        Process.srv
         Configuration.srv
         ConfigurationYAML.srv
 )

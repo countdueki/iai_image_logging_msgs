@@ -1,0 +1,10 @@
+string topic
+string format
+int32 jpeg_quality
+int32 png_level
+int32 optimize_for
+int32 target_bitrate
+int32 keyframe_frequency
+int32 quality
+string db_host
+string collection
