@@ -27,7 +27,7 @@ add_service_files(
         srv
         FILES
         Log.srv
-        Process.srv
+        Update.srv
         Configuration.srv
         ConfigurationYAML.srv
 )
