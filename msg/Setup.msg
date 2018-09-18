@@ -9,3 +9,4 @@ int32 quality
 string db_host
 string collection
 int32 mode
+int32 cam_no
