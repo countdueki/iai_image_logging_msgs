@@ -15,13 +15,6 @@ generate_dynamic_reconfigure_options(
         cfg/Theora.cfg
 )
 
-add_message_files(
-        DIRECTORY
-        msg
-        FILES
-        Setup.msg
-)
-
 add_service_files(
         DIRECTORY
         srv
