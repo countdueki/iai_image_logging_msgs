@@ -1,0 +1,6 @@
+#request
+string topic
+int32 mode
+int32 cam_no
+---
+bool success

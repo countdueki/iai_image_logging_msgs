@@ -21,6 +21,7 @@ add_service_files(
         FILES
         Log.srv
         Update.srv
+        Delete.srv
         Configuration.srv
         ConfigurationYAML.srv
 )
