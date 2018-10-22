@@ -1,6 +1,7 @@
 #request
 string topic
 string format
+string iai_id
 int32 jpeg_quality
 int32 png_level
 int32 optimize_for

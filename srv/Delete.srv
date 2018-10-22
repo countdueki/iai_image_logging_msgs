@@ -1,6 +1,4 @@
 #request
-string topic
-int32 mode
-int32 cam_no
+string iai_id
 ---
 bool success
