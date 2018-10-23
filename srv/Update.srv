@@ -8,9 +8,14 @@ int32 optimize_for
 int32 target_bitrate
 int32 keyframe_frequency
 int32 quality
+float64 depth_max           # is double
+float64 depth_quantization  # is double
 string db_host
 string collection
 int32 mode
-int32 cam_no
+float64 rate                # is double
+bool motion
+bool blur
+bool similar
 ---
 bool success
