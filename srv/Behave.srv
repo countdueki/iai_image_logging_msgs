@@ -1,0 +1,9 @@
+#request
+string iai_id
+float64 rate
+bool motion
+bool blur
+bool similar
+---
+#response
+bool success

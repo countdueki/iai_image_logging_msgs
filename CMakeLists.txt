@@ -19,11 +19,10 @@ add_service_files(
         DIRECTORY
         srv
         FILES
-        Log.srv
+        Behave.srv
+        Insert.srv
+        Remove.srv
         Update.srv
-        Delete.srv
-        Configuration.srv
-        ConfigurationYAML.srv
 )
 
 generate_messages(

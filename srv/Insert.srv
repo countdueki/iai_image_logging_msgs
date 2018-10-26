@@ -1,0 +1,14 @@
+#request
+string topic
+string mode
+string quality
+float64 rate
+bool motion
+bool blur
+bool similar
+string collection
+string db_host
+
+---
+#response
+bool success

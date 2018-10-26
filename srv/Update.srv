@@ -12,7 +12,7 @@ float64 depth_max           # is double
 float64 depth_quantization  # is double
 string db_host
 string collection
-int32 mode
+string mode
 float64 rate                # is double
 bool motion
 bool blur
