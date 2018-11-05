@@ -8,6 +8,9 @@ bool blur
 bool similar
 string collection
 string db_host
+string tf_msg_str
+string tf_base
+string tf_cam
 
 ---
 #response

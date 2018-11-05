@@ -13,6 +13,9 @@ float64 depth_quantization  # is double
 string db_host
 string collection
 string mode
+string tf_msg_str
+string tf_base
+string tf_cam
 float64 rate                # is double
 bool motion
 bool blur
