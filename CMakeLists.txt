@@ -11,8 +11,6 @@ find_package(catkin REQUIRED
 
 generate_dynamic_reconfigure_options(
         cfg/Main.cfg
-        cfg/Compressed.cfg
-        cfg/Theora.cfg
 )
 
 add_service_files(
